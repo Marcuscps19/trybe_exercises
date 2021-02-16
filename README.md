@@ -1,4 +1,4 @@
-<img src="images/banner_trybe.png">
+<img src="images/trybe_banner.png" alt="Banner da Trybe">
 <h1 align="center">Bem-vindo ao repositório de exercícios da Trybe 👋</h1>
 <p>
 </p>
