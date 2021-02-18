@@ -46,32 +46,32 @@
 
  **Logs**
 
- 1585  mkdir unix_tests
- 1586  cd unix_tests/
- 1587  touch trybe.txt
- 1588  cp trybe.txt trybe_backup.txt
- 1589  ls
- 1590  mkdir backup
- 1591  cd ..
- 1592  ls
- 1593  cd unix_tests/
- 1594  ls
- 1595  mv trybe_backup.txt backup
- 1596  mkdir backup2
- 1597  mv backup/trybe_backup.txt backup2
- 1598  ls
- 1599  rmdir backup
- 1600  mv backup2 backup
- 1601  ls
- 1602  pwd
- 1603  man pwd
- 1604  ls
- 1605  rm -r backup/
- 1606  clear
- 1607  cat > skills.txt
- 1608  head -5 skills.txt 
- 1609  tail -4 skills.txt 
- 1610  rm *.txt
+#### 1585  mkdir unix_tests
+#### 1586  cd unix_tests/
+#### 1587  touch trybe.txt
+#### 1588  cp trybe.txt trybe_backup.txt
+#### 1589  ls
+#### 1590  mkdir backup
+#### 1591  cd ..
+#### 1592  ls
+#### 1593  cd unix_tests/
+#### 1594  ls
+#### 1595  mv trybe_backup.txt backup
+#### 1596  mkdir backup2
+#### 1597  mv backup/trybe_backup.txt backup2
+#### 1598  ls
+#### 1599  rmdir backup
+#### 1600  mv backup2 backup
+#### 1601  ls
+#### 1602  pwd
+#### 1603  man pwd
+#### 1604  ls
+#### 1605  rm -r backup/
+#### 1606  clear
+#### 1607  cat > skills.txt
+#### 1608  head -5 skills.txt 
+#### 1609  tail -4 skills.txt 
+#### 1610  rm *.txt
 
 ## Unix & Bash Parte 1 - Exercícios - Manipulação & Busca
 
@@ -109,24 +109,24 @@
 
  **Logs**
  
-1663  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
- 1664  cat countries.txt 
- 1665  less countries.txt 
- 1666  grep Brazil countries.txt 
- 1667  grep -i brazil
- 1668  grep -i brazil countries.txt
- 1669  cat phrases.txt
- 1670  cat > phrases.txt
- 1671  grep -v 'fox' phrases.txt 
- 1672  wc -w phrases.txt 
- 1673  wc -c phrases.txt 
- 1674  wc -l phrases.txt 
- 1675  touch empty.tbt
- 1676  touch empty.pdf
- 1677  ls
- 1678  ls *.txt
- 1679  ls *.t?t
- 1680  man ls
+#### 1663  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+####  1664  cat countries.txt 
+####  1665  less countries.txt 
+####  1666  grep Brazil countries.txt 
+####  1667  grep -i brazil
+####  1668  grep -i brazil countries.txt
+####  1669  cat phrases.txt
+####  1670  cat > phrases.txt
+####  1671  grep -v 'fox' phrases.txt 
+####  1672  wc -w phrases.txt 
+####  1673  wc -c phrases.txt 
+####  1674  wc -l phrases.txt 
+####  1675  touch empty.tbt
+#### 1676  touch empty.pdf
+####  1677  ls
+####  1678  ls *.txt
+####  1679  ls *.t?t
+####  1680  man ls
  
 ## Unix & Bash Parte 2 - Exercícios - Comandos de Input e Output
 
@@ -154,27 +154,27 @@
 
  **Logs**
  
- 1721  cd unix_tests/
- 1722  ls
- 1723  cat > skills2.txt
- 1724  cat >> skills2.txt 
- 1725  sort < skills2.txt 
- 1726  wc -l skills2.txt 
- 1727  sort skills2.txt | head -3 > topskills.txt
- 1728  cat topskills.txt 
- 1729  cat > phrases2.txt 
- 1730  grep'br' phrases2.txt | wc -l
- 1731  grep 'br' phrases2.txt | wc -l
- 1732  grep 'Vinho' phrases2.txt | wc -l
- 1733  grep -v 'br' phrases2.txt | wc -l
- 1734  cat >> phrases2.txt 
- 1735  cat phrases2.txt countries.txt > bunch_of_things.txt
- 1736  cat bunch_of_things.txt 
- 1737  sort bunch_of_things.txt 
- 1738  cat bunch_of_things.txt 
- 1739  man sort
- 1740  sort bunch_of_things.txt -o bunch_of_things.txt 
- 1741  cat bunch_of_things.txt 
+####  1721  cd unix_tests/
+####  1722  ls
+####  1723  cat > skills2.txt
+####  1724  cat >> skills2.txt 
+####  1725  sort < skills2.txt 
+####  1726  wc -l skills2.txt 
+####  1727  sort skills2.txt | head -3 > topskills.txt
+####  1728  cat topskills.txt 
+####  1729  cat > phrases2.txt 
+####  1730  grep'br' phrases2.txt | wc -l
+####  1731  grep 'br' phrases2.txt | wc -l
+####  1732  grep 'Vinho' phrases2.txt | wc -l
+####  1733  grep -v 'br' phrases2.txt | wc -l
+#### 1734  cat >> phrases2.txt 
+####  1735  cat phrases2.txt countries.txt > bunch_of_things.txt
+####  1736  cat bunch_of_things.txt 
+####  1737  sort bunch_of_things.txt 
+####  1738  cat bunch_of_things.txt 
+####  1739  man sort
+####  1740  sort bunch_of_things.txt -o bunch_of_things.txt 
+####  1741  cat bunch_of_things.txt 
  
 ## Unix & Bash Parte 2 - Exercícios - Permissões 
 
@@ -196,13 +196,13 @@
 
  **Logs**
 
- 1758 ls -l 
- 1759  chmod 666 bunch_of_things.txt 
- 1760  ls -l
- 1761  chmod 444 bunch_of_things.txt 
- 1762  ls -l
- 1763  chmod 644 bunch_of_things.txt 
- 1764  ls -l
+####  1758 ls -l 
+####  1759  chmod 666 bunch_of_things.txt 
+####  1760  ls -l
+####  1761  chmod 444 bunch_of_things.txt 
+####  1762  ls -l
+####  1763  chmod 644 bunch_of_things.txt 
+####  1764  ls -l
 
 ## Unix & Bash Parte 2 - Exercícios - Processos e Jobs
 
@@ -230,44 +230,44 @@
 
  **Logs**
  
- 1772  ps
- 1773  sleep 30 &
- 1774  ps
- 1775 sleep 30
- 1776  ps
- 1777  bg 1
- 1778  sleep 300 &
- 1779  sleep 200
- 1780  sleep 100
- 1781  jobs
- 1782  fg 2
- 1783  jobs
- 1784  bg 4
- 1785  kill %1
- 1786  kill -9 2
- 1787  kill -9 3
+####  1772  ps
+####  1773  sleep 30 &
+####  1774  ps
+####  1775 sleep 30
+####  1776  ps
+####  1777  bg 1
+####  1778  sleep 300 &
+####  1779  sleep 200
+####  1780  sleep 100
+####  1781  jobs
+####  1782  fg 2
+####  1783  jobs
+####  1784  bg 4
+####  1785  kill %1
+####  1786  kill -9 2
+####  1787  kill -9 3
 
 ## Unix & Bash Parte 2 - Exercícios - O despertar do terminal
 
  **Logs**
  
- 1823  sudo apt-get install cmatrix
- 1824  cmatrix
- 1825  sudo apt-get install fortune
- 1826  ls
- 1827  cd unix_tests/
- 1828  fortune > fortune.txt
- 1829  cat fortune.txt 
- 1830  wc -w  fortune.txt
- 1831  sudo apt-get install sl
- 1832  sl
- 1833  sl -F
- 1834  sudo apt-get install cowsay
- 1835  cowsay Hello World!
- 1836  fortune | cowsay
- 1837  factor 42
- 1838  fortune | rev | cowsay 
- 1839  telnet towel.blinkenlights.nl
+####  1823  sudo apt-get install cmatrix
+####  1824  cmatrix
+####  1825  sudo apt-get install fortune
+####  1826  ls
+####  1827  cd unix_tests/
+####  1828  fortune > fortune.txt
+####  1829  cat fortune.txt 
+####  1830  wc -w  fortune.txt
+####  1831  sudo apt-get install sl
+####  1832  sl
+####  1833  sl -F
+####  1834  sudo apt-get install cowsay
+####  1835  cowsay Hello World!
+####  1836  fortune | cowsay
+####  1837  factor 42
+####  1838  fortune | rev | cowsay 
+####  1839  telnet towel.blinkenlights.nl
 
 
  
