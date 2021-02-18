@@ -6,3 +6,5 @@ O que eu vou aprender na Trybe:
 - Javascript
 - NodeJs
 - Soft Skills
+- HTML
+- CSS
