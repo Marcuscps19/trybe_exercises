@@ -1,3 +1,5 @@
+*Arquivo contendo os exercícios e os logs*
+
 ## Unix & Bash Parte 1 - Exercícios - Criação de arquivos e diretórios
 
 1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
@@ -244,6 +246,28 @@
  1785  kill %1
  1786  kill -9 2
  1787  kill -9 3
+
+## Unix & Bash Parte 2 - Exercícios - O despertar do terminal
+
+ **Logs**
+ 
+ 1823  sudo apt-get install cmatrix
+ 1824  cmatrix
+ 1825  sudo apt-get install fortune
+ 1826  ls
+ 1827  cd unix_tests/
+ 1828  fortune > fortune.txt
+ 1829  cat fortune.txt 
+ 1830  wc -w  fortune.txt
+ 1831  sudo apt-get install sl
+ 1832  sl
+ 1833  sl -F
+ 1834  sudo apt-get install cowsay
+ 1835  cowsay Hello World!
+ 1836  fortune | cowsay
+ 1837  factor 42
+ 1838  fortune | rev | cowsay 
+ 1839  telnet towel.blinkenlights.nl
 
 
  
