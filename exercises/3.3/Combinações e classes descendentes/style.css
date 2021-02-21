@@ -1,0 +1,61 @@
+ol li{
+  background-color: yellow;  
+}
+
+ol li:nth-child(even){
+    background-color: green;
+}
+
+ol li.primo{
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:red;
+}
+
+.italico{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li { 
+    font-size:20px;
+}
+
+li em{
+    font-weight: bold ;
+}
+
+ul.linguagens_de_programacao li:nth-child(-n+3){
+    color:blue;
+}
+
+ul li span.palavra_java {
+    background-color: hotpink;
+}
+
+
+ul.aliados_dev li a:hover {
+    font-weight: bold;
+}
+
+ul.aliados_dev li:first-of-type a:hover{
+    color: orange;
+}
+
+ul.aliados_dev li:nth-child(2) a:hover{
+    color: rgb(99, 143, 34);
+}
+
+ul.aliados_dev li:nth-child(3) a:hover{
+    color: black;
+}
+
+ul.aliados_dev li:nth-child(4) a:hover{
+    color: rgb(230, 230, 55);
+}
+
+ul.aliados_dev li:nth-child(5) a:hover{
+    color: green;
+}
