@@ -1,4 +1,5 @@
 ## Javascript - Primeiros Passos - Parte II - Variáveis
+
 1. Crie uma constante chamada name e atribua a ela o seu nome;
 2. Crie uma constante chamada birthCity e atribua a ela a sua cidade natal;
 3. Crie uma variável chamada birthYear e atribua a ela o ano em que você nasceu;
