@@ -1,4 +1,4 @@
-## Javascript - Primeiros Passos - Parte IV - Switch case
+## Javascript - Primeiros Passos - Parte V - Switch Case
 
-1. Crie uma variável para armazenar o estado do candidato ao processo seletivo, que pode ser: 'aprovado' , 'lista' ou 'reprovado' ;
-2. Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado do candidato for 'aprovado' , 'lista' ou 'reprovado' . Como default , imprima a mensagem de 'não se aplica' .
+1. Crie uma variável para armazenar o estado da pessoa candidata ao processo seletivo, que pode ser: 'aprovada' , 'lista' ou 'reprovada' ;
+2. Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada' , 'lista' ou 'reprovada' . Como default , imprima a mensagem de 'não se aplica' .
