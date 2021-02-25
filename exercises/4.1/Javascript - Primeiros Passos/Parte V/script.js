@@ -1,11 +1,14 @@
-// 1. Crie uma variável para armazenar o estado da pessoa candidata ao processo seletivo, que pode ser: 'aprovada' , 'lista' ou 'reprovada' ;
-// 2. Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada' , 'lista' ou 'reprovada' . Como default , imprima a mensagem de 'não se aplica' .
+// 1. Crie uma variável para armazenar o estado do candidato ao processo seletivo, que pode ser: 'aprovado' , 'lista' ou 'reprovado' ;
+// 2. Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado do candidato for 'aprovado' , 'lista' ou 'reprovado' . Como default , imprima a mensagem de 'não se aplica' .
 
-let array = ['aprovada', 'lista', 'reprovada'];
-let arrayPositionSort = Math.round(Math.random() * ((array.length)-1) + 1);
+let estadoProcessoSeletivo = 'lista';
 
-switch(arrayPositionSort){
-    case 1: console.log("Parabéns, você foi aprovada(o)!");break;
-    case 2: console.log("Você está na nossa lista de espera.");break;
-    case 3: console.log("Você foi reprovada(o)");
+switch(estadoProcessoSeletivo){
+    case 'aprovado':
+        console.log("Parabéns, você foi aprovado!");break;
+    case 'lista':
+        console.log("Você está na nossa lista de espera.");break;
+    case 'reprovado':
+        console.log("Você foi reprovado.");break;
+    default: console.log('Não se aplica.');
 }

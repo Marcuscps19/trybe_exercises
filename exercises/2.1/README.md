@@ -98,6 +98,3 @@ Os repositórios já estão criados e conectados. Enviando informações do loca
 *git push origin master*
 
 Dessa maneira os dados estão sincronizados.
-
-
-

@@ -8,5 +8,5 @@ if(nota >= 80){
     console.log("Você está na nossa lista de espera. Sua nota foi: ", nota);
 } else {
     console.log ("Você foi reprovada(o). Sua nota foi: ", nota);
-}
+
 
