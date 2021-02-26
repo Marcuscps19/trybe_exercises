@@ -113,5 +113,48 @@ console.log(arrayWith25Numbers);
 console.log("=======================================");
 
 
+// [Bônus] Exercícios 
 
+// Exercício 1
 
+for(let rightIndex = 1; rightIndex < numbers.length; rightIndex++){
+    for(let leftIndex = 0; leftIndex < numbers.length-rightIndex; leftIndex++){
+        if(numbers[leftIndex] > numbers[leftIndex+1]){
+           let auxiliar = numbers[leftIndex];
+           numbers[leftIndex] = numbers[leftIndex+1];
+           numbers[leftIndex+1] = auxiliar; 
+        }
+    }
+}
+console.log("Vetor ordenado em ordem crescente: ");
+console.log(numbers);
+
+// Exercício 2
+
+for(let rightIndex = 1; rightIndex < numbers.length; rightIndex++){
+    for(let leftIndex = 0; leftIndex < numbers.length-rightIndex; leftIndex++){
+        if(numbers[leftIndex] < numbers[leftIndex+1]){
+           let auxiliar = numbers[leftIndex];
+           numbers[leftIndex] = numbers[leftIndex+1];
+           numbers[leftIndex+1] = auxiliar; 
+        }
+    }
+}
+
+console.log("Vetor ordenado em ordem decrescente: ");
+console.log(numbers);
+
+// Exercício 3
+
+let newArray = [];
+
+for(let rightIndex=1; rightIndex < numbers.length; rightIndex++){
+    for(let leftIndex=rightIndex-1; leftIndex < rightIndex; leftIndex++){
+        newArray.push(numbers[leftIndex] * numbers[rightIndex]);
+    }
+    if(rightIndex === numbers.length-1){
+        newArray.push(numbers[rightIndex] * 2);
+    }
+}
+console.log(numbers)
+console.log(newArray);
