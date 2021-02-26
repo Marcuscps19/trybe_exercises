@@ -112,44 +112,6 @@ console.log("Array dividido por 2: ");
 console.log(arrayWith25Numbers);
 console.log("=======================================");
 
-// let myFirstPlay = [33, 24, 12, 19, 15, 51];
-// let sortedNumbers = [];
-// let isRepeated = true;
-
-// function sortNumberOfMegaSena(sortedNumbers){
-//     for(let indexOfRandomNumber = 0; indexOfRandomNumber < 6; indexOfRandomNumber += 1){
-//         let aleatoryNumber = Math.ceil(Math.random() * 60);
-//         isRepeated = isRepeatedFunction(aleatoryNumber);
-//         if(isRepeated){
-//             sortedNumbers.push(aleatoryNumber);
-//         }
-//     }
-//     return sortedNumbers;
-// }
-
-// function isRepeatedFunction(aleatoryNumber) {
-//     let trueOrFalse = false;
-//     for(let indexOfRandomNumber = 0; indexOfRandomNumber < sortedNumbers.length; indexOfRandomNumber += 1){
-//         if(aleatoryNumber === sortedNumbers[indexOfRandomNumber]){
-//             trueOrFalse = true;
-//         }else{
-//             sortNumberOfMegaSena(sortedNumbers);
-
-//     }
-//         return trueOrFalse;
-//     }
-// }
-// myFirstPlay.sort();
-// let plays = 0;
-// while(sortedNumbers != myFirstPlay){
-//     sortedNumbers = [];
-//     sortedNumbers = sortNumberOfMegaSena(sortedNumbers);
-//     sortedNumbers.sort();
-//     plays += 1;
-// }
-
-// console.log(plays);
-
 
 
 
