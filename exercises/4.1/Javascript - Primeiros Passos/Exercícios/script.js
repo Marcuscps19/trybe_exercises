@@ -176,7 +176,7 @@ console.log('Exercício 10: ');
 console.log();
 let valorCusto = 10.00;
 let valorVenda = 17.00;
-console.log("O lucro nesse produto é de: ", calculaLucro(valorCusto, valorVenda));
+console.log("O lucro na venda de 1000 produtos é de: ", calculaLucro(valorCusto, valorVenda)*1000);
 
 function calculaLucro(valorCusto, valorVenda) {
     let valorCustoTotal = valorCusto + (valorCusto * 0.20);
