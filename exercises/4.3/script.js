@@ -29,42 +29,21 @@ for (let index = 0; index < numberOfAsterisks; index += 1) {
 console.log("==================================");
 console.log("Exercício 3: ");
 console.log();
+
 numberOfAsterisks = 5;
-asterisk = '     ';
-reversedAsterisk = '';
+asterisk = '*';
+let line = '';
+let position = numberOfAsterisks; 
 
-for (let index = 0; index < numberOfAsterisks; index += 1) {
-    asterisk = asterisk.replace(' ', '*');
-    reversedAsterisk = reverse(asterisk);
-    console.log(reversedAsterisk);
-}
-
-function reverse(asterisk) {
-    let reversedAsterisk = '';
-    for (let index = asterisk.length - 1; index >= 0; index--) {
-        reversedAsterisk += asterisk[index];
+for (let indexLine = 0; indexLine < numberOfAsterisks; indexLine += 1){
+    for (let indexColumn = 0; indexColumn <= numberOfAsterisks; indexColumn += 1){
+        if(indexColumn < position){
+            line += ' ';
+        } else {
+            line += asterisk;
+        }
     }
-    return reversedAsterisk;
-}
-
-// Exercício 4
-
-asterisk = '';
-baseOfAsterisks = 6;
-
-console.log("==================================");
-console.log("Exercício 4: ");
-console.log();
-
-for (let index = 0; index <= baseOfAsterisks/2; index += 1) {
-    if(index === 0){
-        asterisk += '*';
-        console.log(asterisk);
-    }else {
-        asterisk += '**';
-        console.log(asterisk);
-    }
-
-
-
+    console.log(line);
+    position -= 1;
+    line = '';
 }
