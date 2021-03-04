@@ -47,3 +47,33 @@ for (let indexLine = 0; indexLine < numberOfAsterisks; indexLine += 1){
     position -= 1;
     line = '';
 }
+
+// Exercício 3
+
+console.log("==================================");
+console.log("Exercício 4: ");
+console.log();
+
+numberOfAsterisks = 25;
+asterisk = '*';
+position = ( numberOfAsterisks + 1 ) / 2; 
+let right = position;
+let left = position;
+line = '';
+
+
+for (let indexLine = 0; indexLine <= position; indexLine += 1){
+    for (let indexColumn = 0; indexColumn <= numberOfAsterisks; indexColumn += 1){
+        if(indexColumn > left && indexColumn < right){
+            line = line + asterisk;
+        } else {
+            line = line + ' ';
+        }
+    }
+    console.log(line);
+    line = ' ';
+    right += 1;
+    left -= 1;
+}
+
+
