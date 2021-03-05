@@ -33,11 +33,11 @@ console.log();
 numberOfAsterisks = 5;
 asterisk = '*';
 let line = '';
-let position = numberOfAsterisks; 
+let position = numberOfAsterisks;
 
-for (let indexLine = 0; indexLine < numberOfAsterisks; indexLine += 1){
-    for (let indexColumn = 0; indexColumn <= numberOfAsterisks; indexColumn += 1){
-        if(indexColumn < position){
+for (let indexLine = 0; indexLine < numberOfAsterisks; indexLine += 1) {
+    for (let indexColumn = 0; indexColumn <= numberOfAsterisks; indexColumn += 1) {
+        if (indexColumn < position) {
             line += ' ';
         } else {
             line += asterisk;
@@ -48,7 +48,7 @@ for (let indexLine = 0; indexLine < numberOfAsterisks; indexLine += 1){
     line = '';
 }
 
-// Exercício 3
+// Exercício 4
 
 console.log("==================================");
 console.log("Exercício 4: ");
@@ -56,15 +56,15 @@ console.log();
 
 numberOfAsterisks = 25;
 asterisk = '*';
-position = ( numberOfAsterisks + 1 ) / 2; 
+position = (numberOfAsterisks + 1) / 2;
 let right = position;
 let left = position;
 line = '';
 
 
-for (let indexLine = 0; indexLine <= position; indexLine += 1){
-    for (let indexColumn = 0; indexColumn <= numberOfAsterisks; indexColumn += 1){
-        if(indexColumn > left && indexColumn < right){
+for (let indexLine = 0; indexLine <= position; indexLine += 1) {
+    for (let indexColumn = 0; indexColumn <= numberOfAsterisks; indexColumn += 1) {
+        if (indexColumn > left && indexColumn < right) {
             line = line + asterisk;
         } else {
             line = line + ' ';
@@ -75,5 +75,41 @@ for (let indexLine = 0; indexLine <= position; indexLine += 1){
     right += 1;
     left -= 1;
 }
+
+Exercício 5
+
+console.log("==================================");
+console.log("Exercício 5: ");
+console.log();
+
+numberOfAsterisks = 81;
+asterisk = '*';
+position = (numberOfAsterisks + 1) / 2;
+right = position;
+left = position;
+line = '';
+
+if (numberOfAsterisks % 2 === 0) {
+    console.log("Precisa ser um número ímpar.");
+} else {
+    for (let indexLine = 1; indexLine <= position; indexLine += 1) {
+        for (let indexColumn = 1; indexColumn <= numberOfAsterisks; indexColumn += 1) {
+            if (indexColumn === left || indexColumn === right) {
+                line += asterisk;
+            } else {
+                if(indexLine === position){
+                 line += asterisk;   
+                } else {
+                   line += ' ';
+            }
+            }
+        }
+        console.log(line);
+        line = '';
+        right += 1;
+        left -= 1;
+    }
+}
+
 
 
