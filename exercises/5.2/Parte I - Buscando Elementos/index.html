@@ -1,0 +1,32 @@
+<div id="paiDoPai">
+    <div id="pai">
+      <div id="primeiroFilho"></div>
+      <div id="elementoOndeVoceEsta">
+        <div id="primeiroFilhoDoFilho"></div>
+        <div id="segundoEUltimoFilhoDoFilho"></div>
+      </div>
+      Atenção!
+      <div id="terceiroFilho"></div>
+      <div id="quartoEUltimoFilho"></div>
+    </div>
+  </div>
+  <script>
+      // Exercício 1
+      let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+      // Exercício 2
+      elementoOndeVoceEsta.parentNode.parentNode.style.color = "red";
+      // Exercício 3
+      let primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+      primeiroFilhoDoFilho.innerText = "Primeiro Filho do Filho";
+      // Exercício 4
+      let pai = document.getElementById('pai');
+      let filho = pai.firstElementChild;
+      // Exercício 5
+      filho = elementoOndeVoceEsta.previousElementSibling;
+      // Exercício 6
+      let textAtencao = elementoOndeVoceEsta.nextSibling;
+      // Exercício 7
+      let terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+      // Exercício 8
+      terceiroFilho = pai.lastElementChild.previousElementSibling;
+  </script>
