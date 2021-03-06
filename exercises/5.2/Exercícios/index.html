@@ -94,25 +94,26 @@
         let image = document.createElement('img');
         image.classList.add('small-image');
         image.src = 'https://picsum.photos/200';
-        image.alt= 'imagem aleatória';
+        image.alt = 'imagem aleatória';
         divLeftContent.appendChild(image);
 
         // Exercício 8
 
         let ul = document.createElement('ul');
-        
-        for(let index = 1 ; index <= 10; index += 1){
+
+        for (let index = 1; index <= 10; index += 1) {
             let li = document.createElement('li');
             li.innerText = index;
             ul.appendChild(li);
         }
         divRightContent.appendChild(ul);
 
+        // Exercício 9
 
-
-
-
-
+        for (let index = 0; index < 3; index += 1) {
+            let h3 = document.createElement('h3');
+            divMainContent.appendChild(h3);
+        }
     </script>
 </body>
 
