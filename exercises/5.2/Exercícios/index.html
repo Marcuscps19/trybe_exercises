@@ -60,32 +60,38 @@
 <body>
     <script>
         // Exercício 1
+
         let h1 = document.createElement('h1');
         h1.innerText = "Exercício 5.2";
         let body = document.querySelector('body');
         body.appendChild(h1);
 
         //Exercício 2
+
         let divMainContent = document.createElement('div');
         divMainContent.classList.add('main-content');
         body.appendChild(divMainContent);
 
         //Exercício 3
+
         let divCenterContent = document.createElement('div');
         divCenterContent.classList.add('center-content');
         divMainContent.appendChild(divCenterContent);
 
         //Exercício 4
+
         let pDivCenterContent = document.createElement('p');
         pDivCenterContent.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in posuere magna. Cras ac metus enim. Cras at neque eu sapien dapibus bibendum sit amet in elit. Vivamus lacinia mi vel enim dignissim efficitur. Cras ac leo vitae enim consectetur maximus. Suspendisse auctor volutpat ex.';
         divCenterContent.appendChild(pDivCenterContent);
 
         // Exercício 5
+
         let divLeftContent = document.createElement('div');
         divLeftContent.classList.add('left-content');
         divMainContent.appendChild(divLeftContent);
 
         // Exercício 6
+
         let divRightContent = document.createElement('div');
         divRightContent.classList.add('right-content');
         divMainContent.appendChild(divRightContent);
@@ -123,7 +129,7 @@
 
         let h3Tags = document.getElementsByTagName('h3');
 
-        for(let index = 0; index < h3Tags.length; index += 1){
+        for (let index = 0; index < h3Tags.length; index += 1) {
             h3Tags[index].classList.add('description');
         }
 
@@ -139,6 +145,25 @@
 
         divCenterContent.parentElement.style.backgroundColor = "green";
 
+        // Exercício 15
+
+        let listItems = document.querySelector('ul');
+        
+        for(let index = 0; index < ul.children.length; index += 1){
+
+            if(ul.children[index].innerHTML.includes('9')){
+                ul.removeChild(ul.children[index]);
+            }
+            if(ul.children[index].innerHTML.includes('10')){
+                ul.removeChild(ul.children[index]);
+            }
+        }
+        
+
+        
+
+
     </script>
 </body>
+
 </html>
