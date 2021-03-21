@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de currículo</title>
+</head>
+
+<body>
+    <form id="form">
+        <fieldset id="fs_pessoal_data">
+            <header>
+                <h2>Dados Pessoais</h2>
+            </header>
+            <label for="input_name">Nome</label>
+            <input class="input" type="text" id="input_name" maxlength="40" name="name" placeholder="Digite seu nome" autofocus required />
+            <br>
+            <label for="input_email">E-mail</label>
+            <input class="input" type="email" id="input_email" maxlength="50" name="email" placeholder="exemplo@email.com" required />
+            <br>
+            <label for="input_cpf">CPF</label>
+            <input class="input" type="text" id="input_cpf" maxlength="11" name="cpf" placeholder="Somente números ex: 12345678901" required />
+            <br>
+            <label for="input_adress">Endereço</label>
+            <input class="input" type="text" id="input_adress" maxlength="200" name="adress" placeholder="Digite seu endereço" required />
+            <br>
+            <label for="input_city">Cidade</label>
+            <input class="input" type="text" id="input_city" maxlength="28" name="city" placeholder="Digite sua cidade" required />
+            <br>
+            <label for="select_state">Estado</label>
+            <select class="input" type="text" id="select_state" name="state" required></select>
+            <br>
+            <div id="container_radio">
+                <div id="container_radio">
+                    <input class="input" type="radio" id="radio_house" value="Casa" name="type_house" checked="checked" required />
+                    <label for="radio_house">Casa</label>
+                    <input class="input" value="Apartamento" type="radio" id="radio_apartment" name="type_house" required />
+                    <label for="radio_apartment">Apartamento</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset id="fs_last_job">
+            <header>
+                <h2>Dados do último emprego</h2>
+            </header>
+            <label for="text_area_cv_resume">Resumo do Currículo</label>
+            <textarea name="cv_resume" id="text_area_cv_resume" class="input" maxlength="1000" cols="30" rows="10" placeholder="Até 1000 caracteres" required></textarea>
+            <br>
+            <label for="input_responsibility">Cargo</label>
+            <input type="text" maxlength="40" class="input" id="input_responsibility" name="responsibility" placeholder="Ex: Desenvolvedor de Software" required />
+            <br>
+            <label for="input_responsibility_description">Descrição do cargo</label>
+            <input type="text" maxlength="500" class="input" id="input_responsibility_description" placeholder="Até 500 caracteres" name="responsibility_description"
+                required />
+            <br>
+            <label for="input_start_date">Data</label>
+            <input type="text" id="input_start_date" class="input" name="start_date" placeholder="dd/mm/aaaa" maxlength="10" required />
+        </fieldset>
+        <div id="container_button">
+            <button id="submit" type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+    <section class="form-data"></section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
