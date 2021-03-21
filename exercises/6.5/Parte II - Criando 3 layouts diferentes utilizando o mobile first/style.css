@@ -175,3 +175,9 @@ html {
     font-size: 1.2em;
   }
 }
+
+
+@media screen and (min-width:1401px){
+  p {
+    max-width: 1400px;
+  }
