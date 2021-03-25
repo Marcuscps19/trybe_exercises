@@ -23,5 +23,4 @@ orderedNumbers();
 
 // ============ Exercício 3 ============
 
-oddsAndEvens.sort((a,b) => a-b);
-console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente!`);
+console.log(`Os números ${oddsAndEvens.sort((a,b) => a-b)} se encontram ordenados de forma crescente!`);
