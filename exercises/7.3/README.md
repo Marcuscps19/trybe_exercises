@@ -38,4 +38,5 @@
 10. (greetThePeople) Use a variável parameter como parâmetro da função, escreva testes para verificar se a mesma está retornando como se vê na variável result e, caso não esteja, altere o código para que ele passe nos testes.
 
 11. (removeVowels) Use a variável parameter como parâmetro da função, escreva testes para verificar se a mesma está retornando como se vê na variável result e, caso não esteja, altere o código para que ele passe nos testes.
-    
+
+12. (greaterThanTen) Use a variável parameter como parâmetro da função, escreva testes para verificar se a mesma está retornando como se vê na variável result e, caso não esteja, altere o código para que ele passe nos testes.
