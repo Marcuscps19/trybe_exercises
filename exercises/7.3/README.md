@@ -34,3 +34,8 @@
 8. Escreva a função sumAllNumbers para passar nos testes já implementados.
 
 9. Escreva a função findTheNeedle para passar nos testes já implementados.
+
+10. Use a variável parameter como parâmetro da função, escreva testes para verificar se a mesma está retornando como se vê na variável result e, caso não esteja, altere o código para que ele passe nos testes.
+
+
+    
