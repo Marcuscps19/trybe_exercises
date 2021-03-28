@@ -29,3 +29,4 @@
 
 6. Escreva a função addOne para passar nos testes já implementados.
  
+7. Escreva a função wordLengths para passar nos testes já implementados.

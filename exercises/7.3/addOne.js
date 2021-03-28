@@ -3,10 +3,9 @@ const assert = require('assert');
 function addOne(arr) {
     const values = Object.values(arr);
     const newArray = [];
-    for(let key of values){
-        newArray.push(key + 1);
+    for(let value of values){
+        newArray.push(value + 1);
     }
-    console.log(newArray);
     return newArray;
 } 
 
