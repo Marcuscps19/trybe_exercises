@@ -24,3 +24,5 @@
     - Faça uma chamada com um número divisível por 5 e verifique se o retorno é o esperado
     - Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado
     - Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado
+
+5. Compare dois objetos (JSON) para verificar se são idênticos ou não
