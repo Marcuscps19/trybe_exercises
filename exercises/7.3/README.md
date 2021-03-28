@@ -26,3 +26,6 @@
     - Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado
 
 5. Compare dois objetos (JSON) para verificar se são idênticos ou não
+
+6. Escreva a função addOne para passar nos testes já implementados.
+ 
