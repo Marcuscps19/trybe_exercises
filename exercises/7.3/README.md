@@ -75,3 +75,8 @@ As moedas serão representadas pelos valores 200 , 100 , 50 , 20 , 10 , 5 , 2 e 
 **Exemplo**
 
 Se uma pessoa comprar itens com valor total igual a R$2,15 (ou seja, 215) e pagar R$3 (ou seja, 300), o valor do troco é R$0,85 (ou seja, 85). Para entregar esse troco à pessoa, deve-se retornar as moedas 1x R$0,50, 1x R$0,20, 1x R$0,10 e 1x R$0,05, formando assim a lista [50, 20, 10, 5] .
+
+
+2. Escreva uma função fatorial para passar nos testes já implementados.
+
+3. Escreva a função remove middle para passas nos testes já implementados.
