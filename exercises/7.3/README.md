@@ -79,4 +79,7 @@ Se uma pessoa comprar itens com valor total igual a R$2,15 (ou seja, 215) e paga
 
 2. Escreva uma função fatorial para passar nos testes já implementados.
 
-3. Escreva a função remove middle para passas nos testes já implementados.
+3. Escreva a função removeMiddle para passar nos testes já implementados.
+
+4. Use a variável parameter como parâmetro da função abaixo, escreva testes para verificar se a mesma está retornando como se vê na variável result e, caso não esteja, altere o código para que ele passe nos testes.
+*Lembre-se: testes pequenos e numerosos! Escreva um por vez e vá corrigindo a função aos poucos.*
