@@ -1,129 +1,203 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Inicio */
 
 body {
-    background-color: #000000;
-    color: orange;
+  background-color: #e9f5e6;
+  color: #70756e;
 }
 
-
 #cabecalho {
-    border-bottom: 2px solid orange;
-    width:100%;
-    /* position:fixed; */
-    background-color: #000000;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #202426;
 }
 
 #cabecalho h1 {
-    display:inline-block;
-    font-family: Montserrat;
-    font-size: 1.5em;
-    color: white;
-    margin-top: 1%;
-    margin-left: 4%;
+  font-size: 1.7em;
+  padding: 1em 2em 1em 1em;
+  color: #f2f2f2;
 }
 
-nav {
-    display: inline-block;
-    float: right;
-    margin-right: 5%;
+#cabecalho nav {
+  width: 30%;
+  padding: 2.1em 2em 1em 1em;
+}
+
+#cabecalho nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cabecalho nav ul a {
+  text-decoration: none;
+  color: #9da65d;
+  font-weight: bolder;
+  list-style-type: none;
+  font-size: 1.3em;
+}
+
+#cabecalho nav ul a:hover {
+  color: #6c733d;
+}
+
+body {
+  background-color: #202426;
+}
+
+main {
+  color: #202426;
+}
+
+#banner {
+  width: 100%;
+  background: url(images/stomatopoda.jpg);
+  background-size: cover;
+  height: 350px;
+  background-position-x: left;
+  background-position-y: 70%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 0.8em;
+  background-color: #9da65d;
+  margin-bottom: 1em;
+  text-shadow: 2px 2px #6c733d;
+}
+
+#principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+#vision,
+#curiosity {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+#vision h3,
+#curiosity h3,
+#videos h3 {
+  text-align: center;
+  font-size: x-large;
+  color: #f2f2f2;
+}
+
+#vision p,
+#curiosity p {
+  padding: 1em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color: #f2f2f2;
+  text-align: justify;
+  text-indent: 2em;
+  max-width: 1000px;
+}
+
+#vision img {
+  width: 100%;
+  padding: 0.5em;
+  max-width: 1000px;
+  align-self: center;
+}
+
+#asides {
     width: 30%;
-    margin-top:1%;
 }
 
-nav ul {
-    width: 300px;
+#about,
+#references {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 0em 1em 0 1em;
+  color: #f2f2f2;
 }
 
-.li_nav {
-    display: inline;
+#about h3,
+#references h3 {
+  display: flex;
+  text-align: center;
+  padding-bottom: 0.5em;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #8c8c88;
+}
+
+#about ul {
+  width: 100%;
+}
+
+#about li {
+  list-style-type: none;
+  text-align: justify;
+  border-bottom: 1px solid #8c8c88;
+  padding: 0.5em;
+}
+
+.bold {
+  color: #9da65d;
+  font-weight: bolder;
+}
+
+#references h3 {
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+#references ul {
+    font-size: 0.7em;
+    padding: 0.5em;
     list-style-type: none;
-    margin-right:8%;
-    font-family: Montserrat;
-    color: white;
 }
 
-.li_nav:hover{
-    color:orange;
+#references li, a {
+  line-height: 1.3em;
+  text-decoration: none;
+  color: #f2f2f2;
+  line-height: 1.8em;
 }
 
-a {
-    text-decoration: none;
+#references a {
+    color:#9da65d;
 }
 
-.about ul {
+hr {
+  margin: 2em 0 2em 0;
+}
+
+#curiosity {
+    display: flex;
+    text-indent: 2em;
+    max-width: 1000px;
+    margin: auto;
+    align-self: center;
+}
+
+#videos {
+  display: flex;
+  flex-direction: column;
+}
+
+#videos h3 {
+  padding: 2em 0 2em 0;
+}
+#videos iframe {
+  align-self: center;
+}
+
+
+footer {
     text-align: center;
+    padding: 2em;
+    margin-top: 2em;
 }
-
-article {
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-h2{
-    font-size: 1.4em;
-    padding: 2%;
-    padding-left:0;
-}
-
-h3 {
-    font-size: 1.3em;
-    padding:2%;
-    padding-left: 0;
-}
-
-.bold{
-    font-weight: bolder;
-    color: white;
-}
-
