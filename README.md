@@ -13,15 +13,7 @@
 * Github: [@Marcuscps19](https://github.com/Marcuscps19)
 
 <h4 align="center"> 
-	🚧  Trybe Exercises 🚀 Em construção...  🚧
+	🚧  Trybe Exercises 🚀  
 </h4>
 
-## Checklist
-
-**Bloco 01: Unix, Bash e Shell Script**
-
-*Exercícios:*
-
-- [x] Parte I - Criação de arquivos e diretórios
-- [x] Parte II - Manipulação e Busca
 
