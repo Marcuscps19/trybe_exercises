@@ -78,6 +78,4 @@ describe('Testes exercícios 5', () => {
     test('exercise5.obj1 === exercise5.obj2', () => expect(exercise5.obj1).toEqual(exercise5.obj2));
     test('exercise5.obj1 === exercise5.obj3', () => expect(exercise5.obj1).not.toEqual(exercise5.obj3));
     test('exercise5.obj3 === exercise5.obj2', () => expect(exercise5.obj3).not.toEqual(exercise5.obj2));
-
-
-})
+});
