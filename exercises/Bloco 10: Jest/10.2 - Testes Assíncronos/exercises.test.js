@@ -24,14 +24,14 @@ describe('Exercise 2', () => {
     });
 });
 
-describe('Exercise 4', () => {
-    test('Exercise 4.1', () => {
-        return getRepos('https://api.github.com/orgs/tryber/repos').then(data => {
-            expect(data).toContain('sd-01-week4-5-project-todo-list');
-            expect(data).toContain('sd-01-week4-5-project-meme-generator');
-        });
-    });
-});
+// describe('Exercise 4', () => {
+//     test('Exercise 4.1', () => {
+//         return getRepos('https://api.github.com/orgs/tryber/repos').then(data => {
+//             expect(data).toContain('sd-01-week4-5-project-todo-list');
+//             expect(data).toContain('sd-01-week4-5-project-meme-generator');
+//         });
+//     });
+// });
 
 // 1 - beforeEach
 // 1 - test 
