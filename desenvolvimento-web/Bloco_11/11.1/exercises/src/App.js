@@ -4,9 +4,10 @@ const task = (value) => {
     <li>{value}</li>
   );
 }
+
+const array = ['Estudar Promises', 'Estudar Jest', 'Estudar React'];
 function App() {
-  const array = ['Estudar Promises', 'Estudar Jest', 'Estudar React'];
-  return array.map((curr) => task(curr));
+  return (<ul> { array.map((curr) => task(curr)) } </ul>);
 }
 
 export default App;
